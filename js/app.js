@@ -4,7 +4,7 @@ if(navigator.serviceWorker){
     if(URLactual.toString().includes('127.0.0.1')){
         navigator.serviceWorker.register('/sw.js');
     }else{
-        navigator.serviceWorker.register('/'+URLactual+'/sw.js');
+        navigator.serviceWorker.register('/AxelP2.github.io/sw.js');
     }
 }
 
